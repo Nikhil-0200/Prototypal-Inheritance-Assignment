@@ -48,9 +48,6 @@ Car.prototype.takeOff = function(){
 Object.setPrototypeOf(Aeroplane.prototype, Vehicle.prototype);
 
 
-
-
-
 let car1 = new Car("Ferrari", 1999, 400, "Petrol", 4);
 let Aero1 = new Car("Air Aisa", 2005, 1000, "Diesel", 8);
 
